@@ -1,0 +1,275 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+.hire {
+    text-align: center;
+    color: white;
+    background-color: rgb(75, 75, 165);
+    padding: 17px;
+    font-size: larger;
+    font-weight: 800;
+}
+
+a {
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 17px;
+}
+
+.logo img {
+    width: 230px;
+}
+
+.links {
+    display: flex;
+}
+
+.links ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.links ul li {
+    margin-right: 25px;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: solid;
+    border-color: whitesmoke;
+    border-width: 3px;
+}
+
+.links ul li span {
+    color: white;
+    background-color: blue;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 4px;
+    font-style: normal;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.login {
+    color: white;
+    background-color: black;
+    padding-top: 18px;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.links ul li:hover {
+    border-color: red;
+    transition-delay: .3s;
+    transition: .10s;
+}
+
+.challenge {
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: rgb(207, 204, 204);
+}
+
+.challenge h3 {
+    border-width: 2px;
+    border-color: rgb(207, 204, 204);
+    padding-left: 70px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+.right {
+
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    width: max-content;
+}
+
+.free {
+    display: flex;
+    align-items: center;
+}
+
+.free ul {
+    display: flex;
+    list-style: none;
+}
+
+.free ul li {
+    margin-right: 20px;
+}
+
+.free-button {
+    background-color: rgb(241, 230, 230);
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: blue;
+    font-weight: bold;
+}
+
+.html {
+    color: rgb(146, 146, 241);
+    font-weight: bold;
+}
+
+.css {
+    color: rgb(34, 34, 59);
+    font-weight: bold;
+}
+
+.js {
+    color: red;
+    font-weight: bold;
+}
+
+.capsule {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.three {
+    background-color: goldenrod;
+    font-weight: bolder;
+    color: white;
+    padding: 5px;
+}
+
+.inter {
+    color: goldenrod;
+    font-weight: bolder;
+    padding: 5px;
+    background-color: antiquewhite;
+    border-color: goldenrod;
+}
+
+.left {
+    margin-top: 30px;
+    margin-right: 20px;
+    max-width: 90%;
+
+}
+
+.left img {
+    margin-bottom: 20px;
+}
+
+.down {
+    margin-left: 38px;
+
+}
+
+.down p,
+h2 {
+    margin-bottom: 30px;
+}
+
+.para {
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.start {
+    background-color: red;
+    width: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+
+.last-button {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.b {
+    background-color: blue;
+    color: white;
+    padding: 6px;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+
+.c {
+    margin-left: 10px;
+    background-color: rgb(202, 199, 199);
+    padding: 6px;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+
+.briefassets {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.brief {
+    background-color: white;
+    max-width: 45%;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#read,
+#style {
+    background-color: rgb(146, 146, 241);
+}
+
+.brief a {
+    color: black;
+}
+
+.assets {
+    background-color: white;
+    max-width: 65%; 
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
